@@ -70,8 +70,6 @@ using System.Collections.Generic;
             int n = int.Parse(line[0]);
             int numberOfMatrices = int.Parse(line[1]);
 
-            //WriteLine($"Num: {numberOfMatrices}");
-
             Matrix [] matrices = new Matrix [numberOfMatrices];
 
             for(int i = 0; i < numberOfMatrices; ++i){
